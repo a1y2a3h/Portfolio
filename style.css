@@ -1,0 +1,243 @@
+   body {
+        background-color: #453e51;
+        color: #e8d5b5;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       
+       
+       header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        header img {
+            width: 450px;
+            height: auto;
+            margin-top: 0;
+            margin-left: 0;
+            margin-bottom: 8px;
+            border-radius: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            font-size: 3.5rem;
+            text-align: right;
+        }
+       
+       .x {
+         display: flex;
+            align-items: center;
+            gap: 20px;
+          
+
+       }
+
+  .about {
+    background-color: rgba(86, 96, 126, 0.477);
+    border-radius: 15px;
+    
+    font-weight: bold;
+}
+.about p {
+    margin-left: 10px;
+}
+
+.Goals {
+    background-color: rgba(86, 96, 126, 0.477);
+    border-radius: 15px;
+    height: 300px;
+    box-shadow: 0 4px 8px color( rgb(0, 0, 0));
+    font-weight: bold;
+    line-height: 35px;
+    
+  }
+
+  .skills {
+    background-color: rgba(86, 96, 126, 0.477);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px color( rgb(0, 0, 0));
+    height: 300px;
+    font-weight: bold;
+    line-height: 35px;
+
+  }
+
+  .contect{
+    text-align: center;
+  }
+        .contect img {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+        .projects {
+
+            display: flex;
+            gap: 20px; 
+            justify-content: center;
+        }
+     .Site{
+     
+      
+     text-decoration: none;
+         color: #e8d5b5;
+         background-color: #403456;
+       padding:18px;
+       border-radius: 12px;
+       justify-content: center;
+       display: flex;
+   
+     
+    }
+
+    .code {
+          text-decoration: none;
+         color: #e8d5b5;
+         background-color: rgba(94, 106, 140, 0.089);
+       padding:18px;
+       border-radius: 12px;
+       justify-content: center;
+       display: flex;
+       border: #bab2a5 solid;
+       
+    }
+    
+    .projects div a:hover {
+        background-color: #e8d5b5;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: #000;
+
+
+    
+    }
+    
+    
+    .projects div {
+        padding: 12px;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px color(white);
+        background-color: rgba(86, 96, 126, 0.477);
+        
+
+     }
+
+    .projects div:hover {
+        box-shadow: 0 4px 8px;
+    }
+
+.projects div img {
+    width: 380px;
+    height: 200px;
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+    
+}
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header img {
+    width: 80%;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .x {
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+  }
+
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.projects div img {
+    width: 100%;
+    height: auto;
+    max-width: 380px;
+    border-radius: 15px;
+}
+
+
+  .Site, .code {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .contect img {
+    width: 40px;
+    height: 40px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  header img {
+    width: 70%;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  .x {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+ .projects div img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .Site, .code {
+    font-size: 1.1rem;
+    padding: 14px;
+  }
+
+  .Goals,
+  .skills,
+  .about {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contect img {
+    width: 45px;
+    height: 45px;
+  }
+
+  body {
+    font-size: 17px;
+  }
+}
